@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item elementoMostrar">
+                        <form class="d-flex" role="search">
+                            <input class="elementoMostrar form-control elementoOcultar me-2" type="search"
+                                placeholder="Search" aria-label="Search">
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item" id="btnOpciones">
+                        <a class="nav-link" href="#">Opciones</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control elementoOcultar me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+   <!-- Titulo y carrusel -->
+    <div class="container text-center col-md-4 my-5 elementoOcultar">
+
+        <h2>Ejemplo</h2>
+        <div id="carruselTexto" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p>Texto 1</p>
+                </div>
+                <div class="carousel-item">
+                    <p>Texto 2</p>
+                </div>
+                <div class="carousel-item">
+                    <p>Texto 3</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- Contenedor opciones y lorems -->
+    <div class="container">
+        <!-- Contenedor Opciones -->
+        <div class="row">
+            <div class="col-md-12 col-lg-3 elementoOcultar" id="opciones">
+                <div class="card">
+                    <p class="text-decoration-underline my-2 mx-2">Opción 1</p>
+                </div>
+                <div class="card">
+                    <p class="text-decoration-underline my-2 mx-2">Opción 2</p>
+                </div>
+                <div class="card">
+                    <p class="text-decoration-underline my-2 mx-2">Opción 3</p>
+                </div>
+                <div class="card">
+                    <p class="text-decoration-underline my-2 mx-2">Opción 4</p>
+                </div>
+            </div>
+            <!-- Contenedor Lorems -->
+            <div class="col-md-12 col-lg-9">
+                
+                    <div class="row">
+                        <div class="col-md-6 my-2 col-lg-4 bg-light-subtle text-emphasis-light">
+                            <div class=" p-1 my-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste voluptates
+                                    distinctio, ad
+                                    voluptas odit quod deserunt libero. Voluptate nesciunt atque accusamus reiciendis
+                                    iusto
+                                    voluptatem minus ullam perspiciatis quidem obcaecati.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-2 col-lg-4 bg-light-subtle text-emphasis-light">
+                            <div class=" p-1 my-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste voluptates
+                                    distinctio, ad
+                                    voluptas odit quod deserunt libero. Voluptate nesciunt atque accusamus reiciendis
+                                    iusto
+                                    voluptatem minus ullam perspiciatis quidem obcaecati.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-2 col-lg-4 bg-light-subtle text-emphasis-light">
+                            <div class=" p-1 my-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste voluptates
+                                    distinctio, ad
+                                    voluptas odit quod deserunt libero. Voluptate nesciunt atque accusamus reiciendis
+                                    iusto
+                                    voluptatem minus ullam perspiciatis quidem obcaecati.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-2 col-lg-4 bg-light-subtle text-emphasis-light">
+                            <div class=" p-1 my-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste voluptates
+                                    distinctio, ad
+                                    voluptas odit quod deserunt libero. Voluptate nesciunt atque accusamus reiciendis
+                                    iusto
+                                    voluptatem minus ullam perspiciatis quidem obcaecati.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-2 col-lg-4 bg-light-subtle text-emphasis-light">
+                            <div class=" p-1 my-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste voluptates
+                                    distinctio, ad
+                                    voluptas odit quod deserunt libero. Voluptate nesciunt atque accusamus reiciendis
+                                    iusto
+                                    voluptatem minus ullam perspiciatis quidem obcaecati.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-2 col-lg-4 bg-light-subtle text-emphasis-light">
+                            <div class=" p-1 my-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste voluptates
+                                    distinctio, ad
+                                    voluptas odit quod deserunt libero. Voluptate nesciunt atque accusamus reiciendis
+                                    iusto
+                                    voluptatem minus ullam perspiciatis quidem obcaecati.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-2 col-lg-4 bg-light-subtle text-emphasis-light">
+                            <div class=" p-1 my-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste voluptates
+                                    distinctio, ad
+                                    voluptas odit quod deserunt libero. Voluptate nesciunt atque accusamus reiciendis
+                                    iusto
+                                    voluptatem minus ullam perspiciatis quidem obcaecati.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-2 col-lg-4 bg-light-subtle text-emphasis-light">
+                            <div class=" p-1 my-1">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste voluptates
+                                    distinctio, ad
+                                    voluptas odit quod deserunt libero. Voluptate nesciunt atque accusamus reiciendis
+                                    iusto
+                                    voluptatem minus ullam perspiciatis quidem obcaecati.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            // Iniciar el carrusel
+            $('#carruselTexto').carousel();
+
+            // Cambiar de slide cada 2 segundos
+            setInterval(function () {
+                $('#carruselTexto').carousel('next');
+            }, 2000);
+        });
+        //Lógica para que aparezcan las opciones fuera del nav al hacer click en opciones.
+         document.addEventListener("DOMContentLoaded", () => {
+                const btnOpciones = document.getElementById("btnOpciones");
+                const opciones = document.getElementById("opciones");
+
+                btnOpciones.addEventListener("click", () => {
+                    if (opciones.classList.contains("elementoOcultar")) {
+                        opciones.classList.remove("elementoOcultar");
+                    } else {
+                        opciones.classList.add("elementoOcultar");
+                    }
+                })
+            })
+    </script>
+</body>
+
+</html>
